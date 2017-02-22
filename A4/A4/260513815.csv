@@ -1,0 +1,10 @@
+#Jordan Miller 260513815
+# Updated to reflect Prof. Kry's new advice on using InstCnt instead of MemAccess
+# for calculation of microseconds... hope this isn't late
+# StudentID, Case,        N, InstCnt, MemAccess, Misses, MicroSeconds, HitRate
+260513815, Naive8Way,    64, 4739400,   1048576, 304128,        35152, 71%
+260513815, Naive4Way,    64, 4739400,   1048576, 269184,        31658, 74%
+260513815, NaiveDirect,  64, 4739400,   1048576, 328576,        37597, 69%
+260513815, Fast8Way,     64, 6751868,    655361,  33793,        10131, 95%
+260513815, Fast4Way,     64, 6751868,    655361, 344065,        41158, 47%
+260513815, FastDirect,   64, 6751868,    655361,  97657,        16518, 85%
